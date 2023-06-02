@@ -1,0 +1,20 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<h2>Experiencia laboral</h2>
+<form method="POST" action="/experiencia-laboral">
+    <label for="empresa">Nombre de la empresa:</label>
+    <input type="text" id="empresa" name="empresa" required><br>
+    <label for="rubro">Rubro de la empresa:</label>
+    <input type="text" id="rubro" name="rubro" required><br>
+
+    <!-- Agrega los demás campos aquí -->
+
+    <br>
+    <button type="submit" class="btn btn-primary">Siguiente</button>
+    <button type="submit" name="crear" class="btn btn-success">Crear</button>
+    <a href="/formacion-academica" class="btn btn-secondary">Atrás</a>
+</form>
+
+{% endblock %}

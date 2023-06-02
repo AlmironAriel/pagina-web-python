@@ -1,0 +1,19 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<h2>Formación académica</h2>
+<form method="POST" action="/formacion-academica">
+    <label for="titulo">Título obtenido o estudios cursados:</label>
+    <input type="text" id="titulo" name="titulo" required><br>
+    <label for="institucion">Institución:</label>
+    <input type="text" id="institucion" name="institucion" required><br>
+
+    <!-- Agrega los demás campos aquí -->
+
+    <br>
+    <button type="submit" class="btn btn-primary">Siguiente</button>
+    <a href="/datos-personales" class="btn btn-secondary">Atrás</a>
+</form>
+
+{% endblock %}

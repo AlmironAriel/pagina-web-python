@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(/static/img/Foto.jpg);
+}
+
+container {
+    flex: 1;
+}
+
+footer {
+    background-color: #272b30;
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
