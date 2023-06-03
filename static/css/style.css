@@ -4,6 +4,35 @@ body {
     min-height: 100vh;
     background-image: url(/static/img/Foto.jpg);
 }
+.cabecera_header{
+    width: 100%;
+    height: 50px;
+    border-color: 2px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 container {
     flex: 1;
